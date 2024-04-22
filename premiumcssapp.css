@@ -266,7 +266,7 @@ align-items: center;
 .desd{
   max-width:9cm;
   width:auto;
-  height: 3cm;
+  height: 4cm;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 20px;
@@ -306,6 +306,7 @@ align-items: center;
   align-items: center;
   display: flex;
   background: #F2E9D3;
+  font-family: 'POPPINS';
   position: relative;
   top: 20px;
   left: 10px;
@@ -317,13 +318,15 @@ align-items: center;
   font-size: 20px;
 }
 .imgs{
+  background: rgb(224, 218, 218);
   margin-bottom: -15px;
-  width: auto;
+  width:auto;
   border-radius: 20px;
   height: 7cm;
+  background-size: contain;
   background-position: center;
-  background-size: cover;
-  background: red;
+  background-repeat: no-repeat;
+  background-image: url('imgs/logo.png');
 }
 /*New show off*/
 
@@ -376,7 +379,6 @@ color: white;
   /* Slides */
   .slide {
     display: none;
-    width: 100%;
     transition: opacity 0.5s;
   }
 .imgsf{
@@ -385,6 +387,8 @@ color: white;
   width: 100%;
   border-radius: 20px;
   height: 16cm;
+  background-position: center;
+  background-size: cover;
 }
   /* Show first slide by default */
   .slide:first-child {
@@ -629,6 +633,7 @@ background: rgba(248, 179, 179, 0.185);
   width: 60%;
   height: 80vh;
 }
+
 .remo{
   display: grid;
   align-items: center;
