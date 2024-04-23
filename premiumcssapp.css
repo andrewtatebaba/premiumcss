@@ -394,8 +394,8 @@ color: white;
 @media screen and (max-width:800px){
 .imgsf{
   margin-top: 1cm;
-
-  width: 100%;
+  margin-left:10px;
+  width: 95%;
   border-radius: 20px;
   height: 10cm;
   background-position: center;
