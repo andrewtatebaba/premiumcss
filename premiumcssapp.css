@@ -248,6 +248,7 @@ align-items: center;
   width: 10cm;
   height: auto;
   margin-left: 5px;
+  user-select:none;
   text-align: left;
   border: thick;
   background: transparent;
