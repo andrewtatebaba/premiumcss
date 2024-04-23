@@ -390,6 +390,18 @@ color: white;
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (max-width:800px){
+.imgsf{
+  margin-top: 1cm;
+
+  width: 100%;
+  border-radius: 20px;
+  height: 10cm;
+  background-position: center;
+  background-size: cover;
+}
+}
   /* Show first slide by default */
   .slide:first-child {
     display: block;
